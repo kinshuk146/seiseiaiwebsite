@@ -8,6 +8,7 @@ import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Demo from './components/Demo';
 import TextAnimation from './components/TextAnimation';
+import GetStarted from './components/GetStarted';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header/>
       <TextAnimation/>
       <Sales/>
+      <GetStarted/>
       <Pricing/>
       <Faq/>
       <Demo/>

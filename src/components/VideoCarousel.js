@@ -4,6 +4,34 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import '../App.css'
 
+
+
+
+function VideoCarousel() {
+  const videoSources = [
+    '/public/assets/gehlot_mute.mp4',
+    '/assets/gehlot_mute.mp4',
+    '/assets/gehlot_mute.mp4'
+  ];
+  return (
+    <div>
+      <AwesomeSlider>
+      {videoSources.map((videoSrc, index) => (
+        <div key={index} className="video-slide">
+          <video controls>
+            <source src={videoSrc} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      ))}
+    </AwesomeSlider>
+    </div>
+  )
+}
+
+export default VideoCarousel
+
+
 // export default class VideoCarousel extends Component {
 //   render() {
 //     const settings = {
@@ -41,29 +69,3 @@ import '../App.css'
 //     );
 //   }
 // }
-
-
-
-function VideoCarousel() {
-  const videoSources = [
-    '/assets/gehlot_mute.mp4',
-    '/assets/gehlot_mute.mp4',
-    '/assets/gehlot_mute.mp4'
-  ];
-  return (
-    <div>
-      <AwesomeSlider>
-      {videoSources.map((videoSrc, index) => (
-        <div key={index} className="video-slide">
-          <video controls>
-            <source src={videoSrc} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      ))}
-    </AwesomeSlider>
-    </div>
-  )
-}
-
-export default VideoCarousel
