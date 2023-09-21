@@ -183,6 +183,10 @@
   align-items: center;
 }
 
+.pricing-plan-holder{
+  padding:10px 30px;
+}
+
 .custom-list {
   list-style-type: none;
   /* Remove default bullet points */
