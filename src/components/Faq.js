@@ -1,12 +1,7 @@
 import React from 'react'
 import { Typography } from 'antd'
-import { useState } from 'react';
 import '../App.css'
 
-import {
-    AppstoreOutlined,
-    SettingOutlined,
-  } from '@ant-design/icons';
   import { Divider, Menu, Switch } from 'antd';
   function getItem(label, key, children) {
     return {
@@ -20,16 +15,16 @@ import {
       getItem('Post audio video recordings are uploaded, start in less than 1 week', '0'),
     ]),
     getItem('How long can my video script be?', 'sub3', [
-      getItem('', '2'),
+      getItem('For both English and Hindi languages, the maximum length of the script is 5000 characters.', '2'),
     ]),
     getItem('How many videos can be generated?', 'sub4', [
-      getItem('Post audio video recordings are uploaded, start in less than 1 week', '3'),
+      getItem('With one base video, we allow you generate millions of personalized videos at scale', '3'),
     ]),
     getItem('How can we share the video? Do you have any integrations?', 'sub5', [
-      getItem('Post audio video recordings are uploaded, start in less than 1 week', '4'),
+      getItem('We possess system integrations that enable us to share the video directly with your customers via email or WhatsApp. If you prefer to share it directly with customers, there are no restrictions on integration needs.', '4'),
     ]),
     getItem('What is the required duration of input video/audio?', 'sub6', [
-      getItem('Post audio video recordings are uploaded, start in less than 1 week', '5'),
+      getItem('10 minutes of video or audio input is required for optimal output. It can be as low as 2 minutes.', '5'),
     ]),
   ];
 
