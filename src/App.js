@@ -10,6 +10,7 @@ import Demo from './components/Demo';
 import TextAnimation from './components/TextAnimation';
 import GetStarted from './components/GetStarted';
 
+
 function App() {
   return (
     <div className="App">

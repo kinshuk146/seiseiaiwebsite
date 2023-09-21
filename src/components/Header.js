@@ -5,12 +5,28 @@ import { Typography } from 'antd'
 import VideoCarousel from './VideoCarousel';
 
 function Header() {
+
+    const videos = [
+        {
+          title: 'Video 1',
+          url: '/assets/neha_mute.mp4',
+        },
+        {
+          title: 'Video 2',
+          url: '/assets/gehlot_mute.mp4',
+        },
+        {
+          title: 'Video 3',
+          url: '/assets/aqueel_khan_mute.mp4',
+        },
+        // Add more videos as needed
+      ];
     return (
         <div className='header'>
-            <Typography.Title level={1} className='header-heading' >Unlock the Future of Content: GenAI's Text-to-Video Platform</Typography.Title>
-            <Typography.Paragraph className='header-paragraph' >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</Typography.Paragraph>
-            <Button className='header-button' size='large'>Get our demo!</Button>
-            <VideoCarousel/>
+            <Typography.Title  className='header-heading font1' style={{fontSize:'45px'}} >Unlock the Future of Content: GenAI's Text-to-Video Platform</Typography.Title>
+            <Typography.Paragraph className='header-paragraph' style={{fontSize:'22px'}} >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</Typography.Paragraph>
+            <Button className='header-button'>Get our demo!</Button>
+            <VideoCarousel videos={videos}/>
 
             <div className='header-images'>
                 <Typography.Paragraph className='header-image-paragraph font2'>Trusted by multiple organisations across the globe</Typography.Paragraph>

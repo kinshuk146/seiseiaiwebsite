@@ -1,71 +1,41 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-import '../App.css'
+import React from 'react';
+import Slider from 'react-slick';
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
+const VideoCarousel = ({ videos }) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '0',
+    autoplay: true,
+      speed: 4000,
+      autoplaySpeed: 2000,
+  };
 
-
-function VideoCarousel() {
-  const videoSources = [
-    '/public/assets/gehlot_mute.mp4',
-    '/assets/gehlot_mute.mp4',
-    '/assets/gehlot_mute.mp4'
-  ];
   return (
-    <div>
-      <AwesomeSlider>
-      {videoSources.map((videoSrc, index) => (
-        <div key={index} className="video-slide">
-          <video controls>
-            <source src={videoSrc} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      ))}
-    </AwesomeSlider>
+    <div className="video-carousel">
+      <Slider {...settings}>
+        {videos.map((video, index) => (
+          <div key={index} className="video-slide">
+            <iframe
+              src={video.url}
+              title={video.title}
+              frameBorder="0"
+              allowFullScreen
+              controls={0}
+            ></iframe>
+          </div>
+        ))}
+      </Slider>
     </div>
-  )
-}
+  );
+};
 
-export default VideoCarousel
-
-
-// export default class VideoCarousel extends Component {
-//   render() {
-//     const settings = {
-//       className: "center",
-//       centerMode: true,
-//       infinite: true,
-//       centerPadding: "60px",
-//       slidesToShow: 3,
-//       speed: 500
-//     };
-//     return (
-//       <div>
-//         <h2>Center Mode</h2>
-//         <Slider {...settings}>
-//           <div>
-//             <h3>1</h3>
-//           </div>
-//           <div>
-//             <h3>2</h3>
-//           </div>
-//           <div>
-//             <h3>3</h3>
-//           </div>
-//           <div>
-//             <h3>4</h3>
-//           </div>
-//           <div>
-//             <h3>5</h3>
-//           </div>
-//           <div>
-//             <h3>6</h3>
-//           </div>
-//         </Slider>
-//       </div>
-//     );
-//   }
-// }
+export default VideoCarousel;

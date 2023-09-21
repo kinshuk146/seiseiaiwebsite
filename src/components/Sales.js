@@ -8,7 +8,7 @@ function Sales() {
       imglink="/assets/sales1.png"/>
       <SalesBox heading1="Personalize your marketing for each individual" heading2="Supercharge marketing campaigns with hyper-personalized messages" 
       imglink="/assets/sales2.png"/>
-      <SalesBox background="true" heading1="Add a Personal Touch to every interaction" heading2="Build stronger stakeholder relations with personalized communication" imglink=""/>
+      <SalesBox background="true" heading1="Add a Personal Touch to every interaction" heading2="Build stronger stakeholder relations with personalized communication" imglink="/assets/sales1.png"/>
     </div>
   )
 }

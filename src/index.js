@@ -3,12 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ConfigProvider } from 'antd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <ConfigProvider
+      theme={{
+        components: {
+          Search: {
+            colorPrimary: '#357E5E',
+            activeBorderColor:'#357E5E',
+            algorithm: true, // Enable algorithm
+          }
+        },
+      }}
+    >
     <App />
-  </React.StrictMode>
+  </ConfigProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className='navbar-logo font2'>
-                <img></img>
+                <img src="/assets/logo.png" width={28} height={28}></img>
                 <div className='cup' style={{}}>SeiSei.ai</div>
             </div>
             <div className='navbar-section font2'>
