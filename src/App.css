@@ -425,3 +425,8 @@ video {
 .explore-heading1{
   color:#357E5E;
 }
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from the parent element */
+}

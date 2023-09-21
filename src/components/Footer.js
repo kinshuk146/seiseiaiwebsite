@@ -27,8 +27,10 @@ function FooterComponent() {
                     </Row>
                     <Typography.Title level={4} className='font1 color1' style={{ color: '#357E5E' }} >SOCIAL</Typography.Title>
                     <Row className='footer-links'>
-                        <Col className='font1 footer-link'>LinkedIn</Col>
-                        <Col className='font1 footer-link'>YouTube</Col>
+                        <Col className='font1 footer-link'><a href='https://www.linkedin.com/company/seisei-ai/'
+                        target='_blank'>LinkedIn</a></Col>
+                        <Col className='font1 footer-link'><a href='https://www.youtube.com/playlist?list=PLqKwFgGmv-tN-ldy5zxNceST-_q_8UQF0'
+                        target="_blank">YouTube</a></Col>
                         <Col className='font1 footer-link'>Careers</Col>
                         <Col className='font1 footer-link'>Instagram</Col>
                         <Col className='font1 footer-link'>Facebook</Col>
