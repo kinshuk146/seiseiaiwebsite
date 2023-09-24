@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   user-select: none;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .color2 {
@@ -20,6 +20,10 @@
 
 .cup:hover{
   cursor: pointer;
+}
+
+iframe {
+  
 }
 
 h1{
@@ -39,7 +43,11 @@ a {
 }
 
 
-
+.my-slider-video{
+  .awssld__content video::-webkit-media-controls {
+    display: none !important;
+  }
+}
 
 
 

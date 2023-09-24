@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import { Button, Col, Row } from 'antd';
 import { Typography } from 'antd'
-import VideoCarousel from '../VideoCarousel';
+import VideoCarousel from '../../components/VideoCarousel/VideoCarousel';
 
 function Header() {
 

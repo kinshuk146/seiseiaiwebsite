@@ -21,6 +21,8 @@ import Ethics from './containers/Ethics/Ethics';
 import AboutUs from './containers/AboutUs/AboutUs';
 import Careers from './containers/Careers/Careers';
 import ContactUs from './containers/ContactUs/ContactUs';
+import UseCase from './components/UseCase/UseCase';
+import { Event, Marketing, ReEngage } from './constants/UseCaseData';
 
 const router = createBrowserRouter([
   {
@@ -44,7 +46,7 @@ const router = createBrowserRouter([
     element: (
       <div className="App">
         <Navbar />
-        <Ethics/>
+        <Ethics />
         <FooterComponent />
       </div>
     )
@@ -54,7 +56,7 @@ const router = createBrowserRouter([
     element: (
       <div className="App">
         <Navbar />
-        <AboutUs/>
+        <AboutUs />
         <FooterComponent />
       </div>
     )
@@ -63,8 +65,8 @@ const router = createBrowserRouter([
     path: '/careers',
     element: (
       <div><Navbar />
-      <Careers/>
-      <FooterComponent />
+        <Careers />
+        <FooterComponent />
       </div>
     )
   },
@@ -72,10 +74,42 @@ const router = createBrowserRouter([
     path: '/contactus',
     element: (
       <div><Navbar />
-      <ContactUs/>
-      <FooterComponent /></div>
+        <ContactUs />
+        <FooterComponent /></div>
     )
   },
+  {
+    path: '/usecase/reengage',
+    element: (
+      <div>
+        <Navbar />
+        <UseCase content={ReEngage} />
+        <FooterComponent />
+      </div>
+    )
+  },
+  ,
+  {
+    path: '/usecase/event',
+    element: (
+      <div>
+        <Navbar />
+        <UseCase content={Event} />
+        <FooterComponent />
+      </div>
+    )
+  }
+  ,
+  {
+    path: '/usecase/marketing',
+    element: (
+      <div>
+        <Navbar />
+        <UseCase content={Marketing} />
+        <FooterComponent />
+      </div>
+    )
+  }
 ])
 
 

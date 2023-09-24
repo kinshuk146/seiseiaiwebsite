@@ -9,19 +9,19 @@ function FooterComponent() {
         <div>
             <div className='footer'>
                 <div className='footer-left'>
-                    <h1 className='footer-left-heading'>SeiSei.ai</h1>
+                    <h1 className='footer-left-heading'><a href='/'>SeiSei.ai</a></h1>
                     <h1 className='footer-left-subheading'>Synthetic Video Saas</h1>
                     <p className='footer-left-paragraph font2'>Realistic and affordable, sounds unreal, we made it real :)</p>
                 </div>
                 <div className='footer-right '>
                     <h1  className='footer-right-heading'>COMPANY</h1>
                     <Row className='footer-links'>
-                        <Col className=' footer-link'>About Us</Col>
-                        <Col className=' footer-link'>Ethics Guidlines</Col>
-                        <Col className=' footer-link'>Careers</Col>
+                        <Col className=' footer-link'><a href='aboutus'>About Us</a></Col>
+                        <Col className=' footer-link'><a href='ethics'>Ethics Guidlines</a></Col>
+                        <Col className=' footer-link'><a href='careers'>Careers</a></Col>
                         <Col className=' footer-link'>Use Cases</Col>
                         <Col className=' footer-link'>Pricing</Col>
-                        <Col className=' footer-link'>Contact Us</Col>
+                        <Col className=' footer-link'><a href='contactus'>Contact Us</a></Col>
                     </Row>
                     <h1  className='footer-right-heading lower-heading' >SOCIAL</h1>
                     <Row className='footer-links'>

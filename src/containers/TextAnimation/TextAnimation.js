@@ -1,18 +1,11 @@
 import { Row, Col } from 'antd'
 import { Typography } from 'antd'
 import React, { useState, useEffect } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { TypeAnimation } from 'react-type-animation';
 import './TextAnimation.css'
 
 
-const sentences = [
-  'Sentence 1',
-  'Sentence 2',
-  'Sentence 3', // The middle sentence will be colored
-  'Sentence 4',
-  'Sentence 5',
-];
+
 
 
 function TextAnimation() {
@@ -24,26 +17,19 @@ function TextAnimation() {
         </Col>
         <Col xs={24} md={2}></Col>
         <Col xs={24} md={12} className='textanimation-holder'>
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                'Low retention',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                'High video production cost',
-                1000,
-                'Recording Every Single Campaign',
-                1000,
-                'Post Production',
-                1000,
-                'High brand ambassador cost',
-                1000
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{ fontSize: '2em'}}
-              repeat={Infinity}
-              className='font2'
-            />
+        <div class="container">
+        <div class="content">
+          <div class="content__container">
+            <ul class="content__container__list">
+              <li class="content__container__list__item">Low retention</li>
+              <li class="content__container__list__item">High video production cost</li>
+              <li class="content__container__list__item">Recording Every Single Campaign</li>
+              <li class="content__container__list__item">Post Production</li>
+              <li class="content__container__list__item">High Ambassador cost</li>
+            </ul>
+          </div>
+        </div>
+      </div>
         </Col>
       </Row>
     </div>
