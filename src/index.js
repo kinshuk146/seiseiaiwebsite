@@ -5,21 +5,31 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ConfigProvider } from 'antd';
 
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
+import router from './App';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ConfigProvider
+  <RouterProvider router={router}>
+    <ConfigProvider
       theme={{
         components: {
           Search: {
             colorPrimary: '#357E5E',
-            activeBorderColor:'#357E5E',
+            activeBorderColor: '#357E5E',
             algorithm: true, // Enable algorithm
           }
         },
       }}
     >
-    <App />
-  </ConfigProvider>
+    </ConfigProvider>
+  </RouterProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

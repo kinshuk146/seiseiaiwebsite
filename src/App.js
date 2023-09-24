@@ -10,20 +10,65 @@ import Faq from './containers/Faq/Faq';
 import Demo from './containers/Demo/Demo';
 import FooterComponent from './containers/Footer/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-      <Header/>
-      <TextAnimation/>
-      <Sales/>
-      <GetStarted/>
-      <Pricing/>
-      <Faq/>
-      <Demo/>
-      <FooterComponent/>
-    </div>
-  );
-}
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: (
+      <div className="App">
+        <Navbar />
+        <Header />
+        <TextAnimation />
+        <Sales />
+        <GetStarted />
+        <Pricing />
+        <Faq />
+        <Demo />
+        <FooterComponent />
+      </div>
+    )
+  },
+  {
+    path: '/ethics',
+    element: (
+      <div className="App">
+        <Navbar />
+        <FooterComponent />
+      </div>
+    )
+  },
+  {
+    path: '/aboutus',
+    element: (
+      <div className="App">
+        <Navbar />
+        <FooterComponent />
+      </div>
+    )
+  },
+  {
+    path: '/careers',
+    element: (
+      <div><Navbar />
+      <FooterComponent />
+      </div>
+    )
+  },
+  {
+    path: '/contactus',
+    element: (
+      <div><Navbar />
+      <FooterComponent /></div>
+    )
+  },
+])
+
+
+export default router;
