@@ -1,0 +1,13 @@
+.textanimation{
+    padding-top: 192px;
+    padding-bottom: 192px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 120px;
+}
+
+.textanimation-holder{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }

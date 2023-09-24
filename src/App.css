@@ -3,37 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poppins&display=swap');
 
 .App {
-  padding-left: 120px;
-  padding-right: 120px;
   display: flex;
   flex-direction: column;
-  gap: 120px;
 }
 
-
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
+.color2 {
+  color: #fff;
 }
 
-.language-logo {
-  font-size: 23px;
-}
-
-.navbar-button {
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 18px;
-  flex-direction: column;
-  justify-content: center;
-}
 
 .cup{
 
@@ -43,263 +20,28 @@
   cursor: pointer;
 }
 
-.navbar-logo{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap:16px;
+h1{
+  margin:0px;
 }
 
-.navbar-logo div {
-  color: #072518;
-  font-family: Montserrat Alternates;
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 5px;
+p{
+  margin: 0px;
 }
 
-.navbar-section {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  ;
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from the parent element */
 }
-
-.navbar-section h1 {
-  font-size: 18px;
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-  margin-top: -120px;
-}
-
-.header-heading {
-  max-width: 900px;
-}
-
-.header-paragraph {
-  font-size: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
-  color: rgba(7, 37, 24, 0.50);
-  max-width: 930px;
-}
-
-.header-button {
-  color: white;
-  text-align: center;
-  font-family: 'Montserrat';
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  background-color: #357E5E;
-  padding: 20px 30px ;
-  display: flex;
-  align-items: center;
-}
-
-.sales {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.sales_box {
-  border-radius: 10px;
-  padding: 40px;
-  width: 100%;
-}
-
-.sales_box-left {
-  padding-left: 10px;
-}
-
-.sales_background {
-  background-color: #D7EFDD;
-}
-
-.sales_image-container {
-  width: inherit;
-  height: 250px;
-}
-
-.sales_image-container img {
-  width: 100%;
-  border-radius: 10px;
-  height: 100%;
-  object-fit: contain;
-}
-
-.header-image-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.header-images {
-  margin-top: 120px;
-}
-
-.header-image-container {
-  width: 600px;
-}
-
-.header-image-paragraph {
-  text-align: center;
-  font-size:24px;
-}
-
-.ant-menu-item-selected {
-  background-color: transparent;
-  /* Remove the background color if needed */
-  color: black;
-  /* Replace with your desired text color */
-}
-
-.pricing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.pricing-paragraph {
-  font-size: 20px;
-  text-align: center;
-}
-
-.price-card-bottom {
-  border-top: 1px solid #357E5E80;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.pricing-plan-holder{
-  padding:10px 30px;
-}
-
-.custom-list {
-  list-style-type: none;
-  /* Remove default bullet points */
-  padding-left: 0px;
-  /* Add some padding for spacing */
-  align-items: center;
-}
-
-/* Set the custom icon as the list marker */
-.custom-list li::before {
-  content: '';
-  /* Use an empty content property */
-  display: inline-block;
-  width: 36px;
-  /* Adjust the width and height to fit your icon */
-  height: 20px;
-  background-image: url('../public/assets/Done.svg');
-  /* Specify the path to your custom icon */
-  background-size: cover;
-  /* Adjust sizing as needed */
-  margin-right: 10px;
-  /* Add spacing between the icon and text */
-}
-
-.price-card-holder {
-  display: flex;
-  justify-content: space-between;
-  gap: 0px;
-}
-
-.price-card-button {
-  border-radius: 10px;
-  border: 2px solid #357E5E;
-  color: #357E5E
-}
-
-.price-card-button-2 {
-  border-radius: 10px;
-  background-color: #357E5E;
-  color: white;
-}
-
-.faq {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.footer {
-  background-color: white;
-  border-top: 1px solid #9ABFAF;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-
-.footer-left {
-  text-align: left;
-}
-
-.footer-right {
-  text-align: right;
-  font-family: 'Poppins' !important;
-}
-
 .color1 {
   color: #357E5E;
 }
 
-.font1 {
-  font-family: 'Poppins', sans-serif;
-}
-
-.font2 {
-  font-family: 'Montserrat Alternates', sans-serif;
-}
 
 
-.footer-links {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  justify-content: right;
-}
 
-.footer-link:hover {
-  cursor: pointer
-}
 
-.footer-left-paragraph {
-  max-width: 200px;
-}
 
-.demo {
-  min-height: 300px;
-  border-radius: 10px;
-}
 
-.color2 {
-  color: #fff;
-}
-
-.demo-img {
-  width: inherit;
-}
-
-.demo-img img {
-  width: 100%;
-  ;
-}
 
 
 
@@ -344,53 +86,9 @@ video {
   max-height: 100%;
 }
 
-.textanimation-holder{
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding-top: 35px;
-}
 
-.getstarted{
-}
 
-.getstarted-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; 
-  background-image: linear-gradient(to right, #357E5E 75%, #357E5E4D 75%);
-  background-size: 100% 3px;
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-clip: content-box;
-}
 
-.getstarted-right{
-  background-color: #D7EFDD33;
-}
-
-.getstarted-image-holder{
-  padding: 64px;
-  width: 300px;
-}
-
-.getstarted-image-holder img{
-  width: 100%;
-}
-
-.getstarted-left{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap:20px;
-}
-
-.get-started-section{
-  display: flex;
-  gap:5px;
-  align-items: center;
-}
 
 
 .video-carousel {
@@ -414,19 +112,7 @@ video {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.explore-button{
-  background-color:#357E5E;
-  color: white;
-  padding:15px 40px;
-  display: flex;
-  align-items: center;
-}
 
-.explore-heading1{
-  color:#357E5E;
-}
 
-a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color from the parent element */
-}
+
+

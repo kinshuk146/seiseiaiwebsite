@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@400;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:17px ;
+    padding-bottom:17px;
+    padding-left:120px;
+    padding-right:120px;
+    gap:263px;
+  }
+  
+  .language-logo {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  .navbar-button {
+    background-color: black;
+    color: white;
+    padding:10px 40px;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Montserrat Alternates;
+  }
+  
+
+  .navbar-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+  }
+  
+  .navbar-logo div {
+    color: #072518;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .navbar-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar-section h1 {
+    font-size: 18px;
+  }

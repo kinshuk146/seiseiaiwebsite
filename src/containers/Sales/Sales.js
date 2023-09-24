@@ -1,5 +1,6 @@
 import React from 'react'
 import SalesBox from './SalesBox'
+import './Sales.css'
 
 function Sales() {
   return (

@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Sales from './components/Sales';
-import Pricing from './components/Pricing';
-import Faq from './components/Faq';
-import Footer from './components/Footer';
-import Demo from './components/Demo';
-import TextAnimation from './components/TextAnimation';
-import GetStarted from './components/GetStarted';
-
+import Navbar from './containers/Navbar/Navbar';
+import Header from './containers/Header/Header';
+import TextAnimation from './containers/TextAnimation/TextAnimation';
+import Sales from './containers/Sales/Sales';
+import GetStarted from './containers/GetStarted/GetStarted';
+import Pricing from './containers/Pricing/Pricing';
+import Faq from './containers/Faq/Faq';
+import Demo from './containers/Demo/Demo';
+import FooterComponent from './containers/Footer/Footer';
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
       <Pricing/>
       <Faq/>
       <Demo/>
-      <Footer/>
+      <FooterComponent/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from 'antd'
-import '../App.css'
+import './Faq.css'
 
   import { Divider, Menu, Switch } from 'antd';
   function getItem(label, key, children) {

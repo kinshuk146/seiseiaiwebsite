@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&display=swap');
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    max-width: 1200px;
+}
+
+.header-upper-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-heading {
+    font-family: 'Poppins', sans-serif !important;
+    color: #072518;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header-paragraph {
+    color: rgba(7, 37, 24, 0.50);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    padding-left: 139px;
+    padding-right: 139px;
+}
+
+.header-button {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #357E5E;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.header-images {
+    padding-top: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image-container {
+    width: 600px;
+}
+
+.header-image-paragraph {
+    text-align:center;
+    font-size: 24px;
+}

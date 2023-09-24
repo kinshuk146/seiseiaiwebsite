@@ -3,7 +3,7 @@ import { Typography } from 'antd'
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { TypeAnimation } from 'react-type-animation';
-import '../App.css'
+import './TextAnimation.css'
 
 
 const sentences = [
@@ -17,7 +17,7 @@ const sentences = [
 
 function TextAnimation() {
   return (
-    <div>
+    <div className='textanimation'>
       <Row>
         <Col xs={24} md={10}>
           <Typography.Title>No more worrying about</Typography.Title>
