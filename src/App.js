@@ -73,7 +73,8 @@ const router = createBrowserRouter([
   {
     path: '/contactus',
     element: (
-      <div><Navbar />
+      <div>
+        <Navbar />
         <ContactUs />
         <FooterComponent /></div>
     )

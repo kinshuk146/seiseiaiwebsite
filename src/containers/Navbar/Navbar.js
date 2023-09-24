@@ -2,20 +2,22 @@ import React from 'react'
 import './Navbar.css'
 import { IoLanguageOutline } from 'react-icons/io5'
 import { Button, Tooltip } from 'antd';
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+    const navigate= useNavigate();
     return (
         <nav className='navbar'>
             <div className='navbar-logo font2'>
                 <img src="/assets/logo.png" width={28} height={28}></img>
-                <div className='cup'><a href='/'>SeiSei.ai</a></div>
+                <div className='cup' onClick={()=>{navigate('/')}}>SeiSei.ai</div>
             </div>
             <div className='navbar-section font2'>
                     <Tooltip placement="bottom" title={
                     <div className='usecase-tooltip'>
-                        <a href='/usecase/event'>Events</a>
-                        <a href='/usecase/marketing'>Marketing</a>
-                        <a href='/usecase/reengage'>Re-Engage</a>
+                        <p className='cup' onClick={()=>{navigate('/usecase/event')}}>Events</p>
+                        <p className='cup' onClick={()=>{navigate('/usecase/marketing')}}>Marketing</p>
+                        <p className='cup' onClick={()=>{navigate('/usecase/reengage')}}>Re-Engage</p>
                     </div>}
                     color='white' arrow={false}>
                     <h1 className='cup'>Use Case</h1>
