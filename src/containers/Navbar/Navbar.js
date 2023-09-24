@@ -8,7 +8,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-logo font2'>
                 <img src="/assets/logo.png" width={28} height={28}></img>
-                <div className='cup'>SeiSei.ai</div>
+                <div className='cup'><a href='/'>SeiSei.ai</a></div>
             </div>
             <div className='navbar-section font2'>
                 <h1 className='cup'>Use Case</h1>

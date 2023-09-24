@@ -1,0 +1,15 @@
+.careers{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 135px;
+}
+
+.careers p{
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

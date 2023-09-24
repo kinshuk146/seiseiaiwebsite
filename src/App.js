@@ -17,6 +17,10 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Ethics from './containers/Ethics/Ethics';
+import AboutUs from './containers/AboutUs/AboutUs';
+import Careers from './containers/Careers/Careers';
+import ContactUs from './containers/ContactUs/ContactUs';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +44,7 @@ const router = createBrowserRouter([
     element: (
       <div className="App">
         <Navbar />
+        <Ethics/>
         <FooterComponent />
       </div>
     )
@@ -49,6 +54,7 @@ const router = createBrowserRouter([
     element: (
       <div className="App">
         <Navbar />
+        <AboutUs/>
         <FooterComponent />
       </div>
     )
@@ -57,6 +63,7 @@ const router = createBrowserRouter([
     path: '/careers',
     element: (
       <div><Navbar />
+      <Careers/>
       <FooterComponent />
       </div>
     )
@@ -65,6 +72,7 @@ const router = createBrowserRouter([
     path: '/contactus',
     element: (
       <div><Navbar />
+      <ContactUs/>
       <FooterComponent /></div>
     )
   },

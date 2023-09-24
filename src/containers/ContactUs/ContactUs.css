@@ -1,0 +1,23 @@
+.contactus {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.contactus h1 {
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contactus p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
