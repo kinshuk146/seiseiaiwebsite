@@ -4,12 +4,40 @@
   padding-left: 120px;
   padding-right: 120px;
   margin-top: 120px;
+  display: flex;
   border-radius: 10px;
+}
+
+.demo-left {
+  background-color: #357E5E;
+  padding: 56px
+}
+
+.demo-left h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.demo-left p {
+  color: white;
+  margin-top: 16px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.75;
+}
+
+.demo-right {
+  background-color: #C5E2D5;
+  padding: 33px;
 }
 
 
 .demo-img {
-  width: inherit;
+  width: 366px;
 }
 
 .demo-img img {
@@ -24,4 +52,6 @@
   font-weight: 700;
   width: 200px;
   height: 51px;
+  border-radius: 10px;
+  margin-top: 40px;
 }

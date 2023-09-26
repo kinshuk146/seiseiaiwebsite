@@ -1,8 +1,7 @@
 import React from 'react'
-import { Row, Typography } from 'antd'
-import { Col } from 'antd'
-import { Button } from 'antd'
 import './Sales.css'
+
+
 
 function SalesBox(props) {
   return (
@@ -10,7 +9,7 @@ function SalesBox(props) {
       <div className='sales_box-left'>
         <h1  className='explore-heading1'>{props.heading1}</h1>
         <h1  className='explore-heading2'>{props.heading2}</h1>
-        <Button className='explore-button'>Explore</Button>
+        <button className='explore-button'>Explore</button>
       </div>
       <div className='sales_box-right'>
         <div className='sales_image-container'>

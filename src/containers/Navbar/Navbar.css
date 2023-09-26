@@ -2,67 +2,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top:17px ;
-    padding-bottom:17px;
-    padding-left:120px;
-    padding-right:120px;
-    gap:263px;
-  }
-  
-  .language-logo {
-    font-size: 23px;
-    font-weight: 700;
-    font-family: 'Montserrat Alternates', sans-serif;
-  }
-  
-  .navbar-button {
-    background-color: black;
-    color: white;
-    padding:10px 40px;
-    font-size: 18px;
-    flex-direction: column;
-    justify-content: center;
-    font-family: Montserrat Alternates;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 263px;
+}
 
-  .navbar-logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap:16px;
-  }
-  
-  .navbar-logo div {
-    color: #072518;
-    font-family: Montserrat Alternates;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 5px;
-  }
-  
-  .navbar-section {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .navbar-section h1 {
-    font-size: 18px;
-  }
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
 
-  .usecase-tooltip{
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    min-width: 200px;
-    min-height: 100px;
-    color: black;
-    justify-content:space-evenly;
-  }
+.navbar-heading {
+  margin-bottom: 5px;
+}
+
+.language-logo {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+.navbar-section h1 {
+  font-size: 18px;
+}
+
+
+.navbar-logo div {
+  color: #072518;
+  font-family: Montserrat Alternates;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.usecase-tooltip {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  min-width: 200px;
+  min-height: 100px;
+  color: black;
+  justify-content: space-evenly;
+}
+
+.navbar-button {
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+}

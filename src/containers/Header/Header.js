@@ -32,11 +32,12 @@ function Header() {
 
       <div className='header-images'>
         <p className='header-image-paragraph '>Trusted by multiple organisations across the globe</p>
-        <Row className='header-image-container'>
-          <Col xs={24} lg={8}><img src='/assets/images1.png' alt='img' /></Col>
-          <Col xs={24} lg={8}><img src='/assets/images2.png' alt='img' /></Col>
-          <Col xs={24} lg={8}><img src='/assets/images3.png' alt='img' /></Col>
-        </Row>
+        <div className='header-image-container'>
+          <img src='/assets/images1.png' alt='img' />
+          <img src='/assets/images2.png' alt='img' />
+          <img src='/assets/images3.png' alt='img' />
+          <img src='/assets/headerimages4.png' alt='img' />
+        </div>
       </div>
     </div>
   )

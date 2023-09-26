@@ -2,12 +2,12 @@ import React from 'react'
 import { Typography } from 'antd'
 import './Faq.css'
 
-  import { Divider, Menu, Switch } from 'antd';
+  import { Divider, Menu, } from 'antd';
   function getItem(label, key, children) {
     return {
       key,
       children,
-      label,
+      label:<div className='faq-label'>{label}</div>,
     };
   }
   const items = [
@@ -36,7 +36,7 @@ function Faq() {
       <br />
       <br />
       <Menu
-        style={{ width: 1200,backgroundColor:'#F7FCF8',textAlign:'left',fontWeight:'bold' }}
+        style={{ width: 1200,backgroundColor:'#F7FCF8',textAlign:'left' }}
         mode="inline"
         theme="light"
         items={items}
