@@ -54,10 +54,11 @@
     font-weight: 700;
     line-height: normal;
     background-color: #357E5E;
-    padding: 25px 40px;
+    padding: 19px 40px;
     display: flex;
     align-items: center;
     margin-top: 24px;
+    border-radius: 10px;
 }
 
 .header-images {

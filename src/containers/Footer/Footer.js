@@ -21,8 +21,8 @@ function FooterComponent() {
                         <Col className=' footer-link' onClick={()=>{navigate('/aboutus')}}>About Us</Col>
                         <Col className=' footer-link' onClick={()=>{navigate('/ethics')}}>Ethics Guidlines</Col>
                         <Col className=' footer-link' onClick={()=>{navigate('/careers')}}>Careers</Col>
-                        <Col className=' footer-link' onClick={()=>{navigate('/usecase/reengage')}}>Use Cases</Col>
-                        <Col className=' footer-link'>Pricing</Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/')}}><a href='#usecases'>Use Cases</a></Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/')}}><a href='#pricing'>Pricing</a></Col>
                         <Col className=' footer-link' onClick={()=>{navigate('/contactus')}}>Contact Us</Col>
                     </Row>
                     <h1  className='footer-right-heading lower-heading' >SOCIAL</h1>

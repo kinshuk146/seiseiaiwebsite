@@ -15,9 +15,9 @@ function Navbar() {
             <div className='navbar-section font2'>
                     <Tooltip placement="bottom" title={
                     <div className='usecase-tooltip'>
-                        <p className='cup' onClick={()=>{navigate('/usecase/event')}}>Events</p>
-                        <p className='cup' onClick={()=>{navigate('/usecase/marketing')}}>Marketing</p>
-                        <p className='cup' onClick={()=>{navigate('/usecase/reengage')}}>Re-Engage</p>
+                        <p className='cup' onClick={()=>{navigate('/usecase/stakeholder')}}>Stakeholder Communication</p>
+                        <p className='cup' onClick={()=>{navigate('/usecase/marketing')}}>Marketing Campaigns</p>
+                        <p className='cup' onClick={()=>{navigate('/usecase/d2c')}}>D2C eCommerce</p>
                     </div>}
                     color='white' arrow={false}>
                     <h1 className='cup'>Use Case</h1>

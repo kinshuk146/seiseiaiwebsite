@@ -9,29 +9,29 @@ function UseCase(props) {
                 <section>
                     <h1>{data.one.heading}</h1>
                     <p>{data.one.paragraph1}</p>
-                    <br/>
+                    <br />
                     <p>{data.one.paragraph2}</p>
-                    <br/>
+                    <br />
                     <div>
                         <h1>{data.one.divleft}</h1>
                         <p>{data.one.divright}</p>
                     </div>
                 </section>
                 <div className='usecase-image-container'>
-                    <img src='/assets/usecaseimg1.png'></img>
+                    <img src='/assets/sales2.png'></img>
                 </div>
             </div>
 
             <div className='usecase-section'>
                 <div className='usecase-image-container'>
-                    <img src='/assets/usecaseimg2.png' alt="Description of the image" />
+                    <img src='/assets/sales2.png'></img>
                 </div>
                 <section>
                     <h1>{data.two.heading}</h1>
                     <p>{data.two.paragraph1}</p>
-                    <br/>
+                    <br />
                     <p>{data.two.paragraph2}</p>
-                    <br/>
+                    <br />
                     <div>
                         <h1>{data.two.divleft}</h1>
                         <p>{data.two.divright}</p>
@@ -43,16 +43,16 @@ function UseCase(props) {
                 <section>
                     <h1>{data.three.heading}</h1>
                     <p>{data.three.paragraph1}</p>
-                    <br/>
+                    <br />
                     <p>{data.three.paragraph2}</p>
-                    <br/>
+                    <br />
                     <div>
                         <h1>{data.three.divleft}</h1>
                         <p>{data.three.divright}</p>
                     </div>
                 </section>
                 <div className='usecase-image-container'>
-                    <img src='/assets/usecaseimg3.png' alt="Description of the image" />
+                    <img src='/assets/sales2.png'></img>
                 </div>
             </div>
         </div>

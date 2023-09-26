@@ -1,7 +1,5 @@
 import React from 'react'
 import './Header.css'
-import { Button, Col, Row } from 'antd';
-import { Typography } from 'antd'
 import VideoCarousel from '../../components/VideoCarousel/VideoCarousel';
 
 function Header() {
@@ -26,7 +24,7 @@ function Header() {
       <div className='header-upper-content'>
         <h1 className='header-heading'  >Unlock the Future of Content: GenAI's Text-to-Video Platform</h1>
         <p className='header-paragraph' >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</p>
-        <Button className='header-button'>Get our demo!</Button>
+        <button className='header-button'>Get our demo!</button>
       </div>
       <VideoCarousel videos={videos} />
 

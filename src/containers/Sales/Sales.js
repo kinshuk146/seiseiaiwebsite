@@ -25,7 +25,7 @@ const text3 = (
 
 function Sales() {
   return (
-    <div className='sales'>
+    <div className='sales' id="usecases">
       <SalesBox background="true" heading1="Unlock growth at every touchpoint" heading2={text1} 
       imglink="/assets/sales1.png"/>
       <SalesBox heading1="Personalize your marketing for each individual" heading2={text2}

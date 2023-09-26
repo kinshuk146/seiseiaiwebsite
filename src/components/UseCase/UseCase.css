@@ -50,6 +50,7 @@
     height: 77px;
     align-items: center;
     gap:40px;
+    padding-left: 18px;
 }
 
 .usecase-section section div h1 {

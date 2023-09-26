@@ -5,7 +5,7 @@ import './Pricing.css'
 function Pricing() {
     const [time, setTime] = useState(1);
     return (
-        <div className='pricing'>
+        <div className='pricing' id="pricing">
             <h1 className='pricing-heading font1'>
                 Choose your right plan!
             </h1>

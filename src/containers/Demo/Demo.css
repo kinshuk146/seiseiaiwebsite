@@ -1,5 +1,5 @@
 .demo {
-  height: 295px;
+  height: 319px;
   border-radius: 10px;
   padding-left: 120px;
   padding-right: 120px;
@@ -43,6 +43,7 @@
 
 .demo-right-inner {
   background-color: #C5E2D5;
+  height: 253px;
   padding: 33px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -74,4 +75,5 @@
   height: 51px;
   border-radius: 10px;
   margin-top: 40px;
+  margin-bottom: 62px;
 }

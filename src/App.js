@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         <TextAnimation />
         <Sales />
         <GetStarted />
-        <Pricing />
+        <Pricing/>
         <Faq />
         <Demo />
         <FooterComponent />
@@ -80,7 +80,7 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: '/usecase/reengage',
+    path: '/usecase/d2c',
     element: (
       <div>
         <Navbar />
@@ -91,7 +91,7 @@ const router = createBrowserRouter([
   },
   ,
   {
-    path: '/usecase/event',
+    path: '/usecase/stakeholder',
     element: (
       <div>
         <Navbar />
