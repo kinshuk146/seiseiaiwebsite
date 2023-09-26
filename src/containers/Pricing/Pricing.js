@@ -3,7 +3,6 @@ import { Typography, Card, Button } from 'antd'
 import { Col, Row } from 'antd';
 import './Pricing.css'
 function Pricing() {
-    const [time, setTime] = useState(1);
     return (
         <div className='pricing' id="pricing">
             <h1 className='pricing-heading font1'>
@@ -14,10 +13,10 @@ function Pricing() {
                 Choose the perfect plan to bring your creative vision to life. Whether you're a solo creator or a large enterprise, we've got you covered.</p>
             </Col>
 
-            <Row style={{ backgroundColor: '#F7FCF8' }} className='pricing-plan-holder'>
-                <Col xs={16} ><Button>Yearly (save 10%)</Button></Col>
-                <Col xs={6}><Button>Quaterly</Button></Col>
-            </Row>
+            <div  className='pricing-plan-holder'>
+               <button className='pricing-plan-holder-button'>Yearly (save 10%)</button>
+               <button className='pricing-plan-holder-button'>Quaterly</button>
+            </div>
 
             <Row className='price-card-holder'>
                 <Col xs={24} md={10}>
@@ -47,7 +46,7 @@ function Pricing() {
                                 <li className='li-text'>No Watermark</li>
                                 <li className='li-text'>Quick resolutions</li>
                             </ul>
-                            <Button className='price-card-button'>Get Started</Button>
+                            <button className='price-card-button'>Get Started</button>
                         </div>
                     </Card>
                 </Col>
@@ -78,7 +77,7 @@ function Pricing() {
                                 <li className='li-text'>12 Months Validity</li>
                                 <li className='li-text'>No Watermark</li>
                             </ul>
-                            <Button className='price-card-button-2'>Book A Meeting</Button>
+                            <button className='price-card-button-2'>Book A Meeting</button>
                         </div>
                     </Card>
                 </Col>

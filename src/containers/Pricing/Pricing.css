@@ -43,6 +43,31 @@
 .pricing-plan-holder {
   padding: 10px 30px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: #F7FCF8;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+.pricing-plan-holder-button {
+  display: flex;
+  width: 228px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: white;
+  background-color: #357E5E;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
 }
 
 .custom-list {
@@ -150,12 +175,19 @@
   border-radius: 10px;
   border: 2px solid #357E5E;
   color: #357E5E;
+  background-color: white;
   position: absolute;
   bottom: 30px;
-  padding-left:40px;
-  padding-right:40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 50px;
   font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .price-card-button-2 {
@@ -164,8 +196,15 @@
   color: white;
   bottom: 30px;
   position: absolute;
-  padding-left:40px;
-  padding-right:40px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 50px;
   font-size: 20px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
