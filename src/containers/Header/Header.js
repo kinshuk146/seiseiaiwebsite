@@ -1,24 +1,13 @@
 import React from 'react'
 import './Header.css'
-import VideoCarousel from '../../components/VideoCarousel/VideoCarousel';
+import VideoCarousel from '../VideoCarousel/VideoCarousel'
 
 function Header() {
-
   const videos = [
-    {
-      title: 'Video 1',
-      url: '/assets/neha_mute.mp4',
-    },
-    {
-      title: 'Video 2',
-      url: '/assets/gehlot_mute.mp4',
-    },
-    {
-      title: 'Video 3',
-      url: '/assets/aqueel_khan_mute.mp4',
-    },
-    // Add more videos as needed
-  ];
+    { url: '/assets/neha_mute.mp4' },
+    { url: '/assets/gehlot_mute.mp4' },
+    { url: '/assets/aqueel_khan_mute.mp4' }
+  ]
   return (
     <div className='header'>
       <div className='header-upper-content'>
@@ -27,7 +16,6 @@ function Header() {
         <button className='header-button'>Get our demo!</button>
       </div>
       <VideoCarousel videos={videos} />
-
       <div className='header-images'>
         <p className='header-image-paragraph '>Trusted by multiple organisations across the globe</p>
         <div className='header-image-container'>

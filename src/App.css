@@ -1,30 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poppins&display=swap');
 
 .App {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  user-select: none;
-  overflow-x: hidden;
-}
-
-.color2 {
-  color: #fff;
-}
-
-
-.cup{
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cup:hover{
   cursor: pointer;
-}
-
-iframe {
-  
 }
 
 h1{
@@ -39,15 +22,9 @@ a {
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit color from the parent element */
 }
-.color1 {
-  color: #357E5E;
-}
 
-
-.my-slider-video{
-  .awssld__content video::-webkit-media-controls {
-    display: none !important;
-  }
+a:hover{
+  color:black;
 }
 
 button{
@@ -58,9 +35,6 @@ button:hover{
   cursor: pointer;
 }
 
-
-input{
-}
 
 
 
