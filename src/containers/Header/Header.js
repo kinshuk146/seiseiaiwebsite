@@ -15,8 +15,8 @@ function Header() {
         <h1 className='header-heading'  >Unlock the Future of Content: GenAI's Text-to-Video Platform</h1>
         <p className='header-paragraph' >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</p>
         <div className='header-button-container'>
-          <a href='https://calendly.com/rajat-seiseiai/30min?month=2023-09' target="_blank"><button className='header-button'>Join our waitlist</button></a>
-          <button className='header-button'>Get our Demo!</button>
+          <button className='header-button'>Join waitlist!</button>
+          <a href='https://calendly.com/rajat-seiseiai/30min?month=2023-09' target="_blank"><button className='header-button'>Get our Demo!</button></a>
         </div>
       </div>
       {/* <VideoCarousel videos={videos} /> */}
