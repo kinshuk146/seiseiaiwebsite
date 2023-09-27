@@ -1,6 +1,7 @@
 import React from 'react'
 import SalesBox from './SalesBox'
 import './Sales.css'
+import { useNavigate } from "react-router-dom";
 
 
 const text1 = (
@@ -24,14 +25,15 @@ const text3 = (
 
 
 function Sales() {
+  const navigate = useNavigate();
   return (
     <div className='sales' id="usecases">
-      <SalesBox background="true" heading1="Unlock growth at every touchpoint" heading2={text1} 
-      imglink="/assets/sales1.png"/>
+      <SalesBox background="true" heading1="Unlock growth at every touchpoint" heading2={text1}
+        onClick={() => { navigate('/usecase/stakeholder') }} imglink="/assets/sales1.png" />
       <SalesBox heading1="Personalize your marketing for each individual" heading2={text2}
-      imglink="/assets/sales2.png"/>
+        onClick={() => { navigate('/usecase/marketing') }} imglink="/assets/sales2.png" />
       <SalesBox background="true" heading1="Add a Personal Touch to every interaction" heading2={text3}
-      imglink="/assets/sales1.png"/>
+        onClick={() => { navigate('/usecase/d2c') }} imglink="/assets/sales1.png" />
     </div>
   )
 }

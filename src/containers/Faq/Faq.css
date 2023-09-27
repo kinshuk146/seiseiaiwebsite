@@ -1,12 +1,78 @@
-.faq {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 120px;
-  }
+@import url(https://fonts.googleapis.com/css2?family=Rubik);
 
-  .faq-label{
-    font-weight: bold;
-  }
+
+
+
+.faq {
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
+.faq h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+
+.faq-section {}
+
+.accordion-item {
+  margin-bottom: 6px;
+  border-radius: 20px;
+}
+
+.accordion-header {
+  background: #F7FCF8;
+  cursor: pointer;
+  padding: .5rem;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 32px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.accordion-content {
+  background: #F7FCF8;
+  display: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 65px;
+  padding-bottom: 19px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.accordion-item[open] .accordion-content {
+  display: block;
+}
+
+.accordion-item summary::-webkit-details-marker {
+  display: none;
+}
+
+/* .accordion-item summary::before {
+  content: "\25B6"; 
+  margin-right: 0.5em; 
+}
+
+
+.accordion-item[open] summary::before {
+  content: "\25BC"; 
+} */

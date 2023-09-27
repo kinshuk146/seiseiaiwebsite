@@ -1,0 +1,17 @@
+.video-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.video-container-box video {
+    width: 100%;
+    /* margin-top: 20px; */
+    height: auto;
+}
+
+.video-container-box {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 400px;
+}

@@ -9,7 +9,7 @@ function SalesBox(props) {
       <div className='sales_box-left'>
         <h1  className='explore-heading1'>{props.heading1}</h1>
         <h1  className='explore-heading2'>{props.heading2}</h1>
-        <button className='explore-button'>Explore</button>
+        <button className='explore-button'onClick={props.onClick}>Explore</button>
       </div>
       <div className='sales_box-right'>
         <div className='sales_image-container'>

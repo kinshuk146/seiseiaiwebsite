@@ -45,6 +45,12 @@
     padding-right: 139px;
 }
 
+.header-button-container{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
 .header-button {
     color: white;
     text-align: center;
@@ -59,6 +65,7 @@
     align-items: center;
     margin-top: 24px;
     border-radius: 10px;
+    width: 240px;
 }
 
 .header-images {

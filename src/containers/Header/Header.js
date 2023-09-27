@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import VideoCarousel from '../VideoCarousel/VideoCarousel'
+import Video from '../VideoCarousel/Video'
 
 function Header() {
   const videos = [
@@ -13,9 +14,13 @@ function Header() {
       <div className='header-upper-content'>
         <h1 className='header-heading'  >Unlock the Future of Content: GenAI's Text-to-Video Platform</h1>
         <p className='header-paragraph' >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</p>
-        <button className='header-button'>Get our demo!</button>
+        <div className='header-button-container'>
+          <a href='https://calendly.com/rajat-seiseiai/30min?month=2023-09' target="_blank"><button className='header-button'>Wishlist</button></a>
+          <button className='header-button'>Get our Demo!</button>
+        </div>
       </div>
-      <VideoCarousel videos={videos} />
+      {/* <VideoCarousel videos={videos} /> */}
+      <Video/>
       <div className='header-images'>
         <p className='header-image-paragraph '>Trusted by multiple organisations across the globe</p>
         <div className='header-image-container'>

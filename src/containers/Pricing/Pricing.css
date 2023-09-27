@@ -121,6 +121,15 @@
   margin-top: 16px;
 }
 
+.card2-stikeout{
+  color: #357E5E;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
 .card1-actual-price {
   color: #357E5E;
   font-family: Montserrat;
