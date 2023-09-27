@@ -16,7 +16,7 @@ function Header() {
         <p className='header-paragraph' >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</p>
         <div className='header-button-container'>
           <button className='header-button'>Join waitlist!</button>
-          <a href='https://calendly.com/rajat-seiseiai/30min?month=2023-09' target="_blank"><button className='header-button'>Get our Demo!</button></a>
+          <a href='https://calendly.com/seiseiai/30min?back=1&month=2023-09' target="_blank"><button className='header-button'>Get our Demo!</button></a>
         </div>
       </div>
       {/* <VideoCarousel videos={videos} /> */}
