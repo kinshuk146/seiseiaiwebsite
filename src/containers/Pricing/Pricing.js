@@ -55,7 +55,7 @@ function Pricing() {
                         style={{
                             width: 300,
                             border: '2px solid #357E5E',
-                            backgroundColor: '#F7FCF8',
+                            backgroundColor: '#ffffff',
                             minHeight: '550px'
                         }}
                         className='pricecard'

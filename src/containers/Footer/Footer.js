@@ -31,7 +31,6 @@ function FooterComponent() {
                         target='_blank'>LinkedIn</a></Col>
                         <Col className=' footer-link'><a href='https://www.youtube.com/playlist?list=PLqKwFgGmv-tN-ldy5zxNceST-_q_8UQF0'
                         target="_blank">YouTube</a></Col>
-                        <Col className=' footer-link'>Careers</Col>
                         <Col className=' footer-link'>Instagram</Col>
                         <Col className=' footer-link'>Facebook</Col>
                     </Row>
