@@ -15,12 +15,13 @@ const DemoForm = () => {
             style={{
                 maxWidth: 600,
             }}
+            labelFontSize={18}
         >
             <Form.Item label="Name"  >
                 <Input placeholder="Enter Full Name" />
             </Form.Item>
-            <Form.Item label="Company Name">
-                <Input placeholder="Your Company" />
+            <Form.Item label="Company Name" >
+                <Input placeholder="Your Company"  />
             </Form.Item>
             <Form.Item label="Role">
                 <Input placeholder="Your Role" />
