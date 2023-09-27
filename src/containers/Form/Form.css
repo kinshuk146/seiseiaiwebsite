@@ -1,0 +1,22 @@
+.demoform {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+.demoform button {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #357E5E;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+}

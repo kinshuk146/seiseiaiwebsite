@@ -23,6 +23,7 @@ import Careers from './containers/Careers/Careers';
 import ContactUs from './containers/ContactUs/ContactUs';
 import UseCase from './components/UseCase/UseCase';
 import { Event, Marketing, ReEngage } from './constants/UseCaseData';
+import DemoForm from './containers/Form/Form';
 
 const router = createBrowserRouter([
   {
@@ -107,6 +108,17 @@ const router = createBrowserRouter([
       <div>
         <Navbar />
         <UseCase content={Marketing} />
+        <FooterComponent />
+      </div>
+    )
+  }
+  ,
+  {
+    path: '/form',
+    element: (
+      <div>
+        <Navbar />
+        <DemoForm/>
         <FooterComponent />
       </div>
     )

@@ -18,7 +18,7 @@ function GetStarted() {
                     <h1 className='getstarted-heading'>Get Started in 3 easy steps</h1>
                     <div className='get-started-search-container'>
                         <input placeholder='Email' className='get-started-search'></input>
-                        <a href='https://calendly.com/seiseiai/30min?back=1&month=2023-09'><button>Get a Demo!</button></a>
+                        <a href='https://calendly.com/seiseiai/demo?month=2023-09'><button>Get a Demo!</button></a>
                     </div>
                 </div>
 

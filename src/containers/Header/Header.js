@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import VideoCarousel from '../VideoCarousel/VideoCarousel'
 import Video from '../VideoCarousel/Video'
+import { useNavigate } from 'react-router-dom'
 
 function Header() {
   const videos = [
@@ -9,14 +10,15 @@ function Header() {
     { url: '/assets/gehlot_mute.mp4' },
     { url: '/assets/aqueel_khan_mute.mp4' }
   ]
+  const navigate =useNavigate();
   return (
     <div className='header'>
       <div className='header-upper-content'>
         <h1 className='header-heading'  >Unlock the Future of Content: GenAI's Text-to-Video Platform</h1>
         <p className='header-paragraph' >Convert your text into realistic, personalized videos in minutes. Experience cutting-edge technology that tailors content for your audience.</p>
         <div className='header-button-container'>
-          <button className='header-button'>Join waitlist!</button>
-          <a href='https://calendly.com/seiseiai/30min?back=1&month=2023-09' target="_blank"><button className='header-button'>Get our Demo!</button></a>
+          <button className='header-button' onClick={()=>{navigate('/form'); window.scroll(0,0)}}>Join waitlist!</button>
+          <a href='https://calendly.com/seiseiai/demo?month=2023-09' target="_blank"><button className='header-button'>Get our Demo!</button></a>
         </div>
       </div>
       {/* <VideoCarousel videos={videos} /> */}
