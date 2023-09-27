@@ -3,7 +3,7 @@ import './Footer.css'
 import { Typography } from 'antd'
 import { Col, Divider, Row } from 'antd';
 import { useNavigate } from 'react-router-dom';
-
+import { useHistory } from "react-router-dom";
 
 function FooterComponent() {
     const navigate = useNavigate();
@@ -18,12 +18,13 @@ function FooterComponent() {
                 <div className='footer-right '>
                     <h1  className='footer-right-heading'>COMPANY</h1>
                     <Row className='footer-links'>
-                        <Col className=' footer-link' onClick={()=>{navigate('/aboutus')}}>About Us</Col>
-                        <Col className=' footer-link' onClick={()=>{navigate('/ethics')}}>Ethics Guidlines</Col>
-                        <Col className=' footer-link' onClick={()=>{navigate('/careers')}}>Careers</Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/aboutus');  window.scrollTo(0, 0);}}>About Us</Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/ethics');  window.scrollTo(0, 0);}}>Ethics Guidlines</Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/careers');  window.scrollTo(0, 0);}}>Careers</Col>
                         <Col className=' footer-link' onClick={()=>{navigate('/')}}><a href='#usecases'>Use Cases</a></Col>
-                        <Col className=' footer-link' onClick={()=>{navigate('/')}}><a href='#pricing'>Pricing</a></Col>
-                        <Col className=' footer-link' onClick={()=>{navigate('/contactus')}}>Contact Us</Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/');
+                    }}><a href='#pricing'>Pricing</a></Col>
+                        <Col className=' footer-link' onClick={()=>{navigate('/contactus');  window.scrollTo(0, 0);}}>Contact Us</Col>
                     </Row>
                     <h1  className='footer-right-heading lower-heading' >SOCIAL</h1>
                     <Row className='footer-links'>
