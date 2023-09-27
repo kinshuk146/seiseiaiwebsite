@@ -40,8 +40,7 @@ function Pricing() {
 
                         <div className='price-card-bottom'>
                             <ul className='custom-list'>
-                                <li className='li-text'><b>Free for First 20 Consumers</b></li>
-                                <li className='li-text'>1 Seats</li>
+                                <li className='li-text'>One Seat</li>
                                 <li className='li-text'>Customized Solutions</li>
                                 <li className='li-text'>No Watermark</li>
                                 <li className='li-text'>Quick resolutions</li>
