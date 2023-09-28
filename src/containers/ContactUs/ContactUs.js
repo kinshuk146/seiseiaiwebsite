@@ -12,10 +12,10 @@ function ContactUs() {
         Opening hours: Daily 9am - 7pm (IST)
         <br/>
         Contacting Support: email us at hello@seisei.ai</p>
-      <div className='input-container'>
+      {/* <div className='input-container'>
         <input className='customer-input' placeholder='Email'></input>
         <button className='customer-input-button'>Book A Demo</button>
-      </div>
+      </div> */}
     </div>
   )
 }
