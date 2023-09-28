@@ -12,10 +12,10 @@ function UseCase(props) {
                     <br />
                     <p>{data.one.paragraph2}</p>
                     <br />
-                    <div>
+                    {/* <div>
                         <h1>{data.one.divleft}</h1>
                         <p>{data.one.divright}</p>
-                    </div>
+                    </div> */}
                 </section>
                 <div className='usecase-image-container'>
                     <img src='/assets/sales2.png'></img>
@@ -32,10 +32,10 @@ function UseCase(props) {
                     <br />
                     <p>{data.two.paragraph2}</p>
                     <br />
-                    <div>
+                    {/* <div>
                         <h1>{data.two.divleft}</h1>
                         <p>{data.two.divright}</p>
-                    </div>
+                    </div> */}
                 </section>
             </div>
 
@@ -46,10 +46,10 @@ function UseCase(props) {
                     <br />
                     <p>{data.three.paragraph2}</p>
                     <br />
-                    <div>
+                    {/* <div>
                         <h1>{data.three.divleft}</h1>
                         <p>{data.three.divright}</p>
-                    </div>
+                    </div> */}
                 </section>
                 <div className='usecase-image-container'>
                     <img src='/assets/sales2.png'></img>

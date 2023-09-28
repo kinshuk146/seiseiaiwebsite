@@ -45,7 +45,7 @@ export const Marketing = {
     },
     three: {
         heading: 'Run hyperlocal ads for higher ROI and conversions',
-        paragraph1: 'Run Rephrase AI-powered geo-local, cohort-based hyper-personalized ads for higher ROAS and better CTRs and VTRs.',
+        paragraph1: 'Run geo-local, cohort-based hyper-personalized ads for higher ROAS and better CTRs and VTRs.',
         paragraph2: 'Send personalized videos calling out previously bought items and relevant upsell and cross-sell recommendations',
         divleft: '4x',
         divright: 'improvement in LTV from regular upsell/cross-sell campaigns',
