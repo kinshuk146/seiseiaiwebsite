@@ -2,6 +2,14 @@ import React, { useState, useRef } from 'react';
 import './Form.css'
 import emailjs from '@emailjs/browser';
 
+// import dotenv from 'dotenv';
+// dotenv.config();
+
+const service_key = process.env.EMAILJS_SERVICE_KEY;
+const public_key = process.env.EMAILJS_PUBLIC_KEY;
+const template_key = process.env.EMAILJS_TEMPLATE_KEY;
+
+
 const DemoForm = () => {
     const form = useRef();
     const [submitted, setSubmitted] = useState(false);

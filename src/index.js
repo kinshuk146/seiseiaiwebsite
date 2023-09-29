@@ -6,10 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { ConfigProvider } from 'antd';
 
 import {
-  createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 
 import router from './App';
