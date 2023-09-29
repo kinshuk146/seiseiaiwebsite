@@ -1,74 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.outer-body{
-    margin-top: 100px;
-    width: 100vw;
-    height: 60vh;
-    border-radius: 0;
-}
 
-.inner-body{
-    background-color: #ffff;
-    padding: 40px 50px;
+
+.form-body {
     margin: 0 auto;
     width: 40%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
 }
-.form-header{
+
+.form-header {
     margin-bottom: 15px;
+    text-align: center;
 }
-.form-header h1{
+
+.form-header h1 {
     font-size: 3rem;
     margin: 0;
 }
-.form-header p{
+
+.form-header p {
     font-size: 1rem;
 }
 
-.form-body form p label{
+.form-body form p label {
     display: block;
-    margin-top: 5px ;
+    margin-top: 5px;
     font-size: 1.2rem;
 }
 
-.form-body form p input{
+.form-body form p input {
     width: 100%;
-    padding: 5px 10px;
+    padding: 5px ;
     font-size: 1rem;
     margin: 5px 0px;
     border-radius: 10px;
 }
 
-#submit{
+.form-body form p textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 5px 0px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    resize: none;
+    border:2px solid black;
+    font-family: Poppins;
+}
+
+.form-body form p textarea:focus{
+    outline: none;
+}
+
+#submit {
     border: none;
     cursor: pointer;
     color: white;
     padding: 10px 0px;
-    margin: 10px 0px;
+    margin-top: 10px;
     background-color: #357E5E;
+    width: 100%;
+    margin-left: 6px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
-.form-footer{
+.form-footer {
     margin: 10px 0px;
     text-align: center
-}
-
-.inner-circle{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    background-color: white;
-    opacity: 0.2;
-    position: relative;
-    z-index: 1;
 }

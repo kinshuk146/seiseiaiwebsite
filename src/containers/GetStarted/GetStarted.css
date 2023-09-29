@@ -23,7 +23,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right, #357E5E 75%, #357E5E4D 75%);
+  /* background-image: linear-gradient(to right, #357E5E 75%, #357E5E4D 75%); */
+  background-image: linear-gradient(to right, #357E5E 100%, #357E5E4D 75%);
   background-size: 100% 3px;
   background-repeat: no-repeat;
   background-position: 0 100%;
@@ -90,7 +91,7 @@
   /* 150% */
 }
 
-.get-started-search-container button {
+.getstarted-header button {
   background: #357E5E;
   color: #FFF;
   text-align: center;
@@ -102,6 +103,8 @@
   height: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 35px;
   /* 160% */
 }
 
