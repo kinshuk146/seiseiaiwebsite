@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         <TextAnimation />
         <Sales />
         <GetStarted />
-        <Pricing/>
+        <Pricing />
         <Faq />
         <Demo />
         <FooterComponent />
@@ -118,7 +118,7 @@ const router = createBrowserRouter([
     element: (
       <div>
         <Navbar />
-        <DemoForm/>
+        <DemoForm />
         <FooterComponent />
       </div>
     )

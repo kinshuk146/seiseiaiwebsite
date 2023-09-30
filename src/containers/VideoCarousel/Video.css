@@ -15,3 +15,35 @@
     overflow: hidden;
     width: 400px;
 }
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 950px){
+    .video-container{
+        flex-direction: column;
+    }
+
+    .header-images p {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .video-container-box video {
+        width: 400px;
+        /* margin-top: 20px; */
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    .video-container-box video {
+        margin-left: 30px;
+        width: 200px;
+        /* margin-top: 20px; */
+        height: auto;
+    }
+}

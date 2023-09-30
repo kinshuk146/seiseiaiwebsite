@@ -60,6 +60,7 @@
   min-height: 100px;
   color: black;
   justify-content: space-evenly;
+  font-family: Poppins;
 }
 
 .usecase-tooltip-1 {
@@ -70,6 +71,7 @@
   min-height: 100px;
   color: black;
   justify-content: space-evenly;
+  font-family: Poppins;
 }
 
 .navbar-button {

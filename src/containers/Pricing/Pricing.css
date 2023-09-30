@@ -217,3 +217,7 @@
   font-weight: 700;
   line-height: normal;
 }
+
+.price-card-bottom a{
+  width: 0px;
+}

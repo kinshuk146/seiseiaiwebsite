@@ -2,7 +2,19 @@ import React, { useState } from 'react'
 import { Typography, Card, Button } from 'antd'
 import { Col, Row } from 'antd';
 import './Pricing.css'
+import { useNavigate } from 'react-router-dom';
+
+
 function Pricing() {
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        // Specify the external HTTP link
+        const externalLink = 'https://calendly.com/seiseiai/demo?month=2023-09';
+
+        // Use window.open to open the link in a new tab or window
+        window.open(externalLink, '_blank');
+    };
     return (
         <div className='pricing' id="pricing">
             <h1 className='pricing-heading font1'>
@@ -45,7 +57,7 @@ function Pricing() {
                                 <li className='li-text'>No Watermark</li>
                                 <li className='li-text'>Quick resolutions</li>
                             </ul>
-                            <button className='price-card-button'>Get Started</button>
+                            <button className='price-card-button' onClick={() => { handleButtonClick() }}>Get Started</button>
                         </div>
                     </Card>
                 </Col>
@@ -65,7 +77,7 @@ function Pricing() {
                             <p className='card2-lowerheading'>Let's Talk</p>
                             <p className='card2-stikeout '><s>$249 per avatar</s></p>
                             <p className='card1-actual-price'>$99 per custom avatar</p>
-                            <p className='card1-actual-credit-upper' style={{marginBottom:'20px'}}>$0.12 per credit</p>
+                            <p className='card1-actual-credit-upper' style={{ marginBottom: '20px' }}>$0.12 per credit</p>
                         </div>
 
                         <div className='price-card-bottom'>
@@ -77,7 +89,7 @@ function Pricing() {
                                 <li className='li-text'>12 Months Validity</li>
                                 <li className='li-text'>No Watermark</li>
                             </ul>
-                            <button className='price-card-button-2'>Book A Meeting</button>
+                            <button className='price-card-button-2' onClick={() => { handleButtonClick() }}>Book A Meeting</button>
                         </div>
                     </Card>
                 </Col>
